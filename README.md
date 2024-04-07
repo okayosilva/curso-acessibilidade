@@ -24,7 +24,6 @@ Um projeto voltado voltado a acessibilidade, aplicando os padrões da <a href="h
  * prettier plugin tailwindcss
  * typescript
 
-<br/>
 <hr/>
 
  ## Link do projeto no ar: <a href="https://curso-acessibilidade.vercel.app/">Acessar</a>
