@@ -46,17 +46,26 @@ export default function Home() {
             deficiências.
           </p>
           <p>
-            Acessibilidade se tornou uma tendência no ecossistema tecnológico
-            mundial, diversas empresas passaram a adotar critérios de
-            desenvolvimento acessível em seus projetos — por uma questão prática
-            ou por exigências legais —, no entanto, ainda faltam recursos e
-            consciência do que de fato é inclusivo na internet para pessoas com
-            deficiências.
+            Para abordar este tema, é preciso ter uma perspectiva cultural sobre
+            o assunto, não encará-lo apenas na ótica técnica ou prática.
+            Acessibilidade passou a ser vista como um desafio (ou tendência)
+            para o ecossistema tech e não como filosofia natural daquilo que
+            condiz com os princípios básicos da web: acessível para humanos. Tal
+            afirmação está na W3C.
           </p>
 
           <h3 className="mt-4 text-4xl font-bold">
             O que é acessibilidade, afinal?
           </h3>
+          <div className="mt-4 flex justify-end">
+            <a
+              target="_blank"
+              className="w-fit rounded-sm bg-violet-500 px-4 py-2 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:bg-violet-800"
+              href="https://blog.rocketseat.com.br/desenvolvendo-uma-web-acessivel/"
+            >
+              <span>Saiba Mais</span>
+            </a>
+          </div>
         </article>
       </main>
 
