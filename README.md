@@ -1,4 +1,4 @@
- Status: Completo 🚀
+Status: Completo 🚀
 
 ## Acessibilidade
 Um projeto voltado voltado a acessibilidade, aplicando os padrões da <a href="https://www.w3.org/TR/WCAG21/">WCAG</a>.
