@@ -1,16 +1,21 @@
+'use client'
 import Image from 'next/image'
-import type { Metadata } from 'next'
+// import type { Metadata } from 'next'
 
 import LogoBlog from '@/assets/logo.svg'
 import LogoGit from '@/assets/LogoGit.svg'
+import { Modal } from './component/modal'
 
-export const metadata: Metadata = {
-  title: 'Desenvolvendo uma web acessível ',
-}
+import * as Dialog from '@radix-ui/react-dialog'
+import { ButtonActiveModal } from './component/buttonActiveModal'
+
+// export const metadata: Metadata = {
+//   title: 'Desenvolvendo uma web acessível ',
+// }
 
 export default function Home() {
   return (
-    <div className="mx-auto flex min-h-screen  max-w-screen-max flex-col px-9 pb-4 pt-9">
+    <div className="mx-auto flex min-h-screen  max-w-screen-max flex-col px-9 pb-6 pt-9">
       <header className="flex items-center justify-between">
         <Image src={LogoBlog} alt="Rocket Blog" className="w-36" />
 
@@ -71,12 +76,10 @@ export default function Home() {
 
       <footer className="mt-8 flex items-center justify-between">
         <Image src={LogoBlog} alt="Rocket Blog" className="w-16" />
-        <a
-          href="/"
-          className="text-violet-500 transition-colors hover:text-violet-700"
-        >
-          Termos de uso
-        </a>
+        <Dialog.Root>
+          <ButtonActiveModal />
+          <Modal />
+        </Dialog.Root>
       </footer>
     </div>
   )

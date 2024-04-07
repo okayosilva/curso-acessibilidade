@@ -10,7 +10,10 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: ' %s | Rocket Blog',
+  title: {
+    template: '%s | Desenvolvendo uma web acessível ',
+    default: 'Desenvolvendo uma web acessível',
+  },
 }
 
 export default function RootLayout({
